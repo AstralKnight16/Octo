@@ -86,8 +86,6 @@ Octo/
 │   └── AuthContext.tsx    # Authentication state
 ├── services/              # API services
 │   └── github.ts          # GitHub API client
-├── assets/                # Static assets
-│   └── fonts/             # Geist font files
 └── package.json
 ```
 
