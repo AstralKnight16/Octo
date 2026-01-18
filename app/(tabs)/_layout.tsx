@@ -15,7 +15,7 @@ export default function TabsLayout() {
           borderTopWidth: 1,
         },
         tabBarLabelStyle: {
-          fontFamily: 'GeistSans-Medium',
+          fontFamily: 'Geist-Medium',
           fontSize: 12,
         },
       }}

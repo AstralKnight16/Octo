@@ -86,14 +86,14 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 32,
-    fontFamily: 'GeistSans-Bold',
+    fontFamily: 'Geist-Bold',
     color: '#f0f6fc',
     marginTop: 24,
     marginBottom: 8,
   },
   subtitle: {
     fontSize: 16,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
     textAlign: 'center',
     marginBottom: 48,
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
   },
   label: {
     fontSize: 14,
-    fontFamily: 'GeistSans-Medium',
+    fontFamily: 'Geist-Medium',
     color: '#f0f6fc',
     marginBottom: 8,
   },
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
   },
   helpText: {
     fontSize: 12,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
     marginBottom: 24,
   },
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
   },
   signInButtonText: {
     fontSize: 16,
-    fontFamily: 'GeistSans-SemiBold',
+    fontFamily: 'Geist-SemiBold',
     color: '#f0f6fc',
   },
 });

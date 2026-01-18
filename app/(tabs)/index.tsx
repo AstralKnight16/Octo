@@ -2,7 +2,7 @@ import { View, Text, ScrollView, TouchableOpacity, StyleSheet } from 'react-nati
 import { useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
 import { Star, GitFork } from 'lucide-react-native';
-import { RepoIcon, GitBranchIcon } from '@primer/octicons-react';
+import { Octicons } from '@expo/vector-icons';
 import { getRepositories, getAuthenticatedUser } from '@/services/github';
 import { useAuth } from '@/contexts/AuthContext';
 import { useRouter } from 'expo-router';
@@ -78,7 +78,7 @@ export default function HomeScreen() {
         repos.map((repo) => (
           <TouchableOpacity key={repo.id} style={styles.repoCard}>
             <View style={styles.repoHeader}>
-              <RepoIcon size={16} />
+            <Octicons name="repo" size={16} color="#8b949e" />
               <Text style={styles.repoName}>{repo.full_name}</Text>
             </View>
             {repo.description && (
@@ -96,7 +96,7 @@ export default function HomeScreen() {
                 <Text style={styles.statText}>{repo.forks_count}</Text>
               </View>
               <View style={styles.stat}>
-                <GitBranchIcon size={14} />
+              <Octicons name="git-branch" size={14} color="#8b949e" />
                 <Text style={styles.statText}>{repo.language || 'N/A'}</Text>
               </View>
             </View>
@@ -122,25 +122,25 @@ const styles = StyleSheet.create({
   },
   greeting: {
     fontSize: 28,
-    fontFamily: 'GeistSans-Bold',
+    fontFamily: 'Geist-Bold',
     color: '#f0f6fc',
     marginBottom: 8,
   },
   bio: {
     fontSize: 16,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
   },
   title: {
     fontSize: 32,
-    fontFamily: 'GeistSans-Bold',
+    fontFamily: 'Geist-Bold',
     color: '#f0f6fc',
     textAlign: 'center',
     marginTop: 100,
   },
   subtitle: {
     fontSize: 18,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
     textAlign: 'center',
     marginTop: 16,
@@ -155,7 +155,7 @@ const styles = StyleSheet.create({
   },
   signInButtonText: {
     fontSize: 16,
-    fontFamily: 'GeistSans-SemiBold',
+    fontFamily: 'Geist-SemiBold',
     color: '#f0f6fc',
   },
   filterContainer: {
@@ -177,7 +177,7 @@ const styles = StyleSheet.create({
   },
   filterText: {
     fontSize: 14,
-    fontFamily: 'GeistSans-Medium',
+    fontFamily: 'Geist-Medium',
     color: '#8b949e',
   },
   filterTextActive: {
@@ -199,12 +199,12 @@ const styles = StyleSheet.create({
   },
   repoName: {
     fontSize: 16,
-    fontFamily: 'GeistSans-SemiBold',
+    fontFamily: 'Geist-SemiBold',
     color: '#58a6ff',
   },
   repoDescription: {
     fontSize: 14,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
     marginBottom: 12,
     lineHeight: 20,
@@ -225,7 +225,7 @@ const styles = StyleSheet.create({
   },
   loading: {
     fontSize: 14,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
     textAlign: 'center',
     marginTop: 32,

@@ -13,9 +13,9 @@ const queryClient = new QueryClient();
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({
-     "GeistSans-Regular": require("geist-sans/fonts/GeistSans-Regular.ttf"), 
-     "GeistSans-Medium": require("geist-sans/fonts/GeistSans-Medium.ttf"), 
-     "GeistSans-SemiBold": require("geist-sans/fonts/GeistSans-SemiBold.ttf"), 
+     "Geist-Regular": require("geist-sans/fonts/Geist-Regular.ttf"), 
+     "Geist-Medium": require("geist-sans/fonts/Geist-Medium.ttf"), 
+     "Geist-SemiBold": require("geist-sans/fonts/Geist-SemiBold.ttf"), 
      "GeistMono-Regular": require("geist-mono/fonts/GeistMono-Regular.ttf"), 
     });
 
@@ -41,7 +41,7 @@ export default function RootLayout() {
               },
               headerTintColor: '#f0f6fc',
               headerTitleStyle: {
-                fontFamily: 'GeistSans-SemiBold',
+                fontFamily: 'Geist-SemiBold',
               },
               contentStyle: {
                 backgroundColor: '#0d1117',

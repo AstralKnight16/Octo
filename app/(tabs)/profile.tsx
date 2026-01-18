@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
   },
   name: {
     fontSize: 24,
-    fontFamily: 'GeistSans-Bold',
+    fontFamily: 'Geist-Bold',
     color: '#f0f6fc',
     marginBottom: 4,
   },
@@ -146,7 +146,7 @@ const styles = StyleSheet.create({
   },
   bio: {
     fontSize: 14,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
     textAlign: 'center',
     lineHeight: 20,
@@ -167,7 +167,7 @@ const styles = StyleSheet.create({
   },
   infoText: {
     fontSize: 14,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
   },
   statsSection: {
@@ -185,13 +185,13 @@ const styles = StyleSheet.create({
   },
   statNumber: {
     fontSize: 24,
-    fontFamily: 'GeistSans-Bold',
+    fontFamily: 'Geist-Bold',
     color: '#f0f6fc',
     marginBottom: 4,
   },
   statLabel: {
     fontSize: 12,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
   },
   actionsSection: {
@@ -212,7 +212,7 @@ const styles = StyleSheet.create({
   },
   actionButtonText: {
     fontSize: 16,
-    fontFamily: 'GeistSans-Medium',
+    fontFamily: 'Geist-Medium',
     color: '#f0f6fc',
   },
   logoutButtonText: {
@@ -220,7 +220,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 32,
-    fontFamily: 'GeistSans-Bold',
+    fontFamily: 'Geist-Bold',
     color: '#f0f6fc',
     textAlign: 'center',
     marginTop: 32,
@@ -228,7 +228,7 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     fontSize: 16,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
     textAlign: 'center',
     marginBottom: 32,
@@ -241,7 +241,7 @@ const styles = StyleSheet.create({
   },
   signInButtonText: {
     fontSize: 16,
-    fontFamily: 'GeistSans-SemiBold',
+    fontFamily: 'Geist-SemiBold',
     color: '#f0f6fc',
   },
 });

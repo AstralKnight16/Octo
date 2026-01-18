@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
   searchInput: {
     flex: 1,
     fontSize: 16,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#f0f6fc',
   },
   content: {
@@ -99,14 +99,14 @@ const styles = StyleSheet.create({
   },
   emptyTitle: {
     fontSize: 24,
-    fontFamily: 'GeistSans-Bold',
+    fontFamily: 'Geist-Bold',
     color: '#f0f6fc',
     marginTop: 16,
     marginBottom: 8,
   },
   emptySubtitle: {
     fontSize: 16,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
     textAlign: 'center',
   },
@@ -120,26 +120,26 @@ const styles = StyleSheet.create({
   },
   resultName: {
     fontSize: 16,
-    fontFamily: 'GeistSans-SemiBold',
+    fontFamily: 'Geist-SemiBold',
     color: '#58a6ff',
     marginBottom: 8,
   },
   resultDescription: {
     fontSize: 14,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
     lineHeight: 20,
   },
   loading: {
     fontSize: 14,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
     textAlign: 'center',
     marginTop: 32,
   },
   noResults: {
     fontSize: 14,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
     textAlign: 'center',
     marginTop: 32,

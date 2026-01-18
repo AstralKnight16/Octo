@@ -47,14 +47,14 @@ const styles = StyleSheet.create({
   },
   emptyTitle: {
     fontSize: 24,
-    fontFamily: 'GeistSans-Bold',
+    fontFamily: 'Geist-Bold',
     color: '#f0f6fc',
     marginTop: 16,
     marginBottom: 8,
   },
   emptySubtitle: {
     fontSize: 16,
-    fontFamily: 'GeistSans-Regular',
+    fontFamily: 'Geist-Regular',
     color: '#8b949e',
     textAlign: 'center',
   },
