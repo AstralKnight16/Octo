@@ -12,7 +12,12 @@ SplashScreen.preventAutoHideAsync();
 const queryClient = new QueryClient();
 
 export default function RootLayout() {
-  const [loaded, error] = useFonts({});
+  const [loaded, error] = useFonts({
+     "GeistSans-Regular": require("geist-sans/fonts/GeistSans-Regular.ttf"), 
+     "GeistSans-Medium": require("geist-sans/fonts/GeistSans-Medium.ttf"), 
+     "GeistSans-SemiBold": require("geist-sans/fonts/GeistSans-SemiBold.ttf"), 
+     "GeistMono-Regular": require("geist-mono/fonts/GeistMono-Regular.ttf"), 
+    });
 
   useEffect(() => {
     if (loaded || error) {
